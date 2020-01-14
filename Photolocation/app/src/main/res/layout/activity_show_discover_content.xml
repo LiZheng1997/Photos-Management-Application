@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/position01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/component_padding"
+        android:padding="@dimen/component_padding"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+        <ImageView
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:src="@drawable/twitter_logo_blue"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:text="@string/twitter_text"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_chevron_right_gray_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/position02"
+        android:layout_margin="@dimen/component_padding"
+        android:padding="@dimen/component_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/position01" >
+
+        <ImageView
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:src="@drawable/glyph_logo"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:text="@string/instagram_text"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_chevron_right_gray_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/position03"
+        android:layout_margin="@dimen/component_padding"
+        android:padding="@dimen/component_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/position02">
+
+        <ImageView
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:src="@drawable/flogo"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:text="@string/faceBook_text"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="@dimen/discover_component_size"
+            android:layout_height="@dimen/discover_component_size"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_chevron_right_gray_24dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
