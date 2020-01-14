@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_blue_accent_24dp"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_color_accent_24dp"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_gallery"
+        android:icon="@drawable/ic_photo_library_blue_accent_24dp"
+        android:title="@string/title_photo_library" />
+
+    <item
+        android:id="@+id/navigation_camera"
+        android:icon="@drawable/ic_photo_camera_blue_24dp"
+        android:title="@string/title_camera" />
+</menu>
